@@ -31,7 +31,7 @@ header {
   height: 60px;
   border-radius: 60px;
   display: flex;
-  justify-content: space-between;
+  gap: 10px;
   align-items: center;
   font-size: 1.5rem;
 }
@@ -46,12 +46,14 @@ header {
 }
 .productCard {
   background-color: #fcf8e1;
-  width: 40%;
+  width: 48%;
+  max-width: 450px;
   height: 300px;
   border-radius: 40px;
   display: flex;
   flex-direction: column;
   gap: 15px;
+  padding-bottom: 10px;
 }
 .image {
   background-image: url(../imgs/honey.jpg);
@@ -130,4 +132,9 @@ header {
   color: #5c2605;
   font-weight: bold;
   padding: 20px;
+}
+.articleText {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
